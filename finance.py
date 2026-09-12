@@ -1,3 +1,5 @@
+# Finance Agent With DuckDuckGo and Yfinance 
+
 from agno.agent import Agent
 from agno.models.google import GeminiInteractions
 from agno.models.groq import Groq
