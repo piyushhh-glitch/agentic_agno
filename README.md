@@ -44,3 +44,7 @@ Demonstrates storing user-specific memories, adding conversation history to cont
 ### `ui.py`
 A Streamlit web interface for the YouTube Video Analyzer.  
 Demonstrates how to connect an Agno agent to a simple UI where users can enter a YouTube link and receive an AI-generated analysis report.
+
+### `workflow.py`
+A content creation workflow using multiple Agno agents.  
+Demonstrates how agents can be organized into sequential steps, where a researcher gathers information and a writer uses it to create an article.
