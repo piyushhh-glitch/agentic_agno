@@ -40,3 +40,7 @@ Demonstrates how multiple agents can work together and return responses in diffe
 ### `memory.py`
 An Agno agent with persistent memory using SQLite.  
 Demonstrates storing user-specific memories, adding conversation history to context, and retrieving saved memories across interactions.
+
+### `ui.py`
+A Streamlit web interface for the YouTube Video Analyzer.  
+Demonstrates how to connect an Agno agent to a simple UI where users can enter a YouTube link and receive an AI-generated analysis report.

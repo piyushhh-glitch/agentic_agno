@@ -6,7 +6,7 @@ from agno.tools.youtube import YouTubeTools
 from dotenv import load_dotenv
 load_dotenv()
 
-def build_agent():
+def build_youtube_agent():
     return Agent(
         name="Youtube-video-analyzer",
         tools=[YouTubeTools()],
@@ -52,7 +52,7 @@ def build_agent():
         markdown=True
     )
 
-agent=build_agent()
+# agent=build_agent()
 
-agent.print_response("Analyze this video:https://youtu.be/bZxAKA69xqg?si=8s69Eo_fq4hGRk4v",
-                     stream=True)
+# agent.print_response("Analyze this video:https://youtu.be/bZxAKA69xqg?si=8s69Eo_fq4hGRk4v",
+#                      stream=True)
