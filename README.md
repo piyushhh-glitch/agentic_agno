@@ -48,3 +48,11 @@ Demonstrates how to connect an Agno agent to a simple UI where users can enter a
 ### `workflow.py`
 A content creation workflow using multiple Agno agents.  
 Demonstrates how agents can be organized into sequential steps, where a researcher gathers information and a writer uses it to create an article.
+
+### `pii_detection.py`
+Demonstrates PII detection guardrails for protecting sensitive user information.  
+Shows how to block requests containing PII and how to mask detected PII instead of blocking the request.
+
+### `prompt_injection.py`
+Demonstrates protection against prompt injection attacks using Agno's Prompt Injection Guardrail.  
+Tests how the agent handles requests that attempt to override its instructions or bypass restrictions.
