@@ -64,3 +64,15 @@ The agent requires human approval before executing an action, such as sending an
 ### `agentos.py`
 Demonstrates how to create and serve an Agno Agent using AgentOS.  
 Shows how AgentOS provides a runtime and API layer for running agents as applications.
+
+### `agent_as_a_judge.py`
+Demonstrates LLM-as-a-Judge evaluation using `AgentAsJudgeEval`.  
+Evaluates an agent's response based on defined criteria and assigns a score from 1 to 10.
+
+### `accuracy.py`
+Demonstrates agent accuracy evaluation using `AccuracyEval`.  
+Compares the agent's output with an expected result and evaluates it across multiple iterations.
+
+### `performance.py`
+Demonstrates performance evaluation using `PerformanceEval`.  
+Measures the performance of an agent across repeated runs.
