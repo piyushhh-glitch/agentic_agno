@@ -60,3 +60,7 @@ Tests how the agent handles requests that attempt to override its instructions o
 ### `human_in_the_loop.py`
 Demonstrates Human-in-the-Loop using tool confirmation.  
 The agent requires human approval before executing an action, such as sending an email.
+
+### `agentos.py`
+Demonstrates how to create and serve an Agno Agent using AgentOS.  
+Shows how AgentOS provides a runtime and API layer for running agents as applications.
