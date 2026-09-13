@@ -56,3 +56,7 @@ Shows how to block requests containing PII and how to mask detected PII instead 
 ### `prompt_injection.py`
 Demonstrates protection against prompt injection attacks using Agno's Prompt Injection Guardrail.  
 Tests how the agent handles requests that attempt to override its instructions or bypass restrictions.
+
+### `human_in_the_loop.py`
+Demonstrates Human-in-the-Loop using tool confirmation.  
+The agent requires human approval before executing an action, such as sending an email.
